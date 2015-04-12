@@ -1,0 +1,224 @@
+
+<!doctype html>
+
+<head>
+	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width" />
+  	<title>Drawn Ship</title>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+<div class="page">
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+<div id="jp_container_1" class="jp-audio">
+		
+	
+
+
+			<div class="jp-type-playlist">
+			<div class="jp-gui jp-interface">
+									<span class="current-song-title"><span class="currently-playing"><span class="song-title">The Blame</span><span class="song-album">Ghost Weight</span></span></span>
+
+				<ul class="jp-controls">
+					<li><button class="jp-previous" tabindex="1"><i class="icon-step-backward"></i></button></li>
+					<li><button class="jp-play" tabindex="1"><i class="icon-play"></i></button></li>
+					<li><button class="jp-pause" tabindex="1"><i class="icon-pause"></i></button></li>
+					<li><button class="jp-next" tabindex="1"><i class="icon-step-forward"></i></button></li>
+				</ul>			
+
+			</div> <!--controls-->
+	
+ 
+
+		<div class="jp-playlist" id="theplaylist">
+
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div> <!-- jp_type_playlist-->
+</div><!--jp_container.--><h1 class="drawnship">Drawn Ship</h1>
+
+<hr>	
+
+<section class="album ghost-weight">
+	<figure>
+		<img src="img/ghostweight.jpg">
+		<figcaption>Release Date: 10/22/13</figcaption>
+	</figure>
+	<aside class="track-list">
+		<h3>Ghost Weight</h3>
+		<ol>
+			<li>The Blame</li>
+			<li>Unknown Sister</li>
+			<li>Gabriel Dumont</li>
+			<li>Breakup Math</li>
+			<li>No Scene</li>
+			<li>Living the Grownup Life</li>
+			<li>Call Darling John</li>
+			<li>Chimney Sweep</li>
+			<li>Orangemen</li>
+			<li>Still Music</li>
+		</ol>
+		
+	</aside>
+</section>
+
+<section class="album low-domestic">
+	<figure>
+		<img src="http://drawnship.ca/wp-content/uploads/2011/09/DS-cover-10.jpg">
+		<figcaption>Release Date: 9/6/11</figcaption>
+	</figure>
+	<aside class="track-list">
+		<h3>Low Domestic</h3>
+		<ol>
+			<li>The Best Ones Go</li>
+			<li>Silent Auction</li>
+			<li>Glass Eye</li>
+			<li>Sick With the Sound</li>
+			<li>Fists, Hooves, Claws</li>
+			<li>Body Parts</li>
+			<li>Adventure Series</li>
+			<li>Execution</li>
+			<li>Buckner</li>
+			<li>You Only</li>
+			<li>New Lucky Room</li>
+		</ol>
+		
+	</aside>
+</section>
+
+<hr> 
+
+</div>
+
+<section class="photoband">
+
+</section>
+
+<div class="page">
+
+
+
+<section class="band-bio photos">
+	
+	<figure>
+	<img src="img/DrawnShip1.jpg">
+	</figure>
+	<aside>
+		<h3>Drawn Ship</h3>
+		Drawn Ship is Lyn Heinemann (guitars &amp; vocals), Trent Hopton (guitars &amp; vocals) and Gregg Steffensen (drums). Formed in 2010 by Heinemann and Steffensen, the band established its career as a two-piece, and released Low Domestic in 2011. They toured, and decided to add another player who would fit with their minimalist, intentional approach. The duo invited Heinemann's long-time collaborator Trent Hopton to join them on guitar. In 2013, Drawn Ship recorded Ghost Weight, the sophomore 10-song album featuring vocals by <a href="http://www.hannahgeorgas.com/" target="_blank">Hannah Georgas</a>, Leah Abramson (<a href="http://www.leahabramson.com/" target="_blank">The Abramson Singers</a>), and Ryan Guldemond (<a href="http://mothermothersite.com/" target="_blank">Mother Mother</a>).
+		
+		<a href="http://drawnship.ca/presspack.zip" class="presspack" target="_blank"><i class="icon-chevron-sign-right"></i> Download Press Pack</a>
+		<div>
+		<section>
+
+		
+		<h4>Buy/Listen</h4>
+		<ul>
+		<li><a href="http://drawnship.bandcamp.com/" target="_blank">Bandcamp</a></li>
+		<li><a href="http://soundcloud.com/drawn-ship/" target="_blank">Soundcloud</a></li>
+		<li><a href="https://itunes.apple.com/ca/artist/drawn-ship/id459007658?uo=4" target="itunes_store">iTunes</a></li>
+		</ul>
+		</section>
+		<section>
+			<h4>Contact</h4>
+			<ul>
+				<li><a href="http://www.facebook.com/drawn.ship">Facebook</a></li>
+				<li><a href="http://www.scratchrecords.com/" target="_blank">Scratch Records</a></li>
+				<li><a href="mailto:info@drawnship.ca" target="_blank">info@drawnship.ca</a></li>
+			</ul>
+		
+		</section>
+		</div>
+
+	</aside>
+
+
+</section>
+</div>
+
+<footer>
+	<section>
+	</section>
+</footer>
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+
+myPlaylist = new jPlayerPlaylist({
+		jPlayer: "#jquery_jplayer_1",
+		cssSelectorAncestor: "#jp_container_1"
+	}, [
+		{
+			title: "The Blame",
+			mp3: "mp3s/01-The-Blame.mp3",
+			album: "Ghost Weight",
+			lyrics: "#TheBlame"
+		},
+		{
+			title: "Unknown Sister",
+			mp3: "mp3s/02-UnknownSister.mp3",
+			album: "Ghost Weight",
+			lyrics: "#UnknownSister"
+			
+		},		
+		{
+			title: "Gabriel Dumont",
+			mp3: "mp3s/03-GabrielDumont.mp3",
+			album: "Ghost Weight",
+			lyrics: "#GabrielDumont"	
+		},
+		{
+		title: "Sick With The Sound",
+		album:"Low Domestic",
+		lyrics: "",
+		mp3: "mp3s/04-Sick-With-The-Sound.mp3"
+		},{
+		title: "Adventure Series",
+		album:"Low Domestic",
+		lyrics: "",
+		mp3: "mp3s/07-Adventure-Series.mp3"
+		},{
+		title: "Glass Eye",
+		album:"Low Domestic",
+		lyrics: "",
+		mp3: "mp3s/03-Glass-Eye.mp3"
+
+		}
+	], {
+		swfPath: "js",
+		supplied: "mp3",
+		wmode: "window",
+		smoothPlayBar: true,
+		autoPlay: false,
+		loop: true,
+		keyEnabled: true
+	});
+});
+
+
+$("#jquery_jplayer_1").bind($.jPlayer.event.play, function() {
+	$(".current-song-title").html("<span class='currently-playing'><span class='song-title'>" + myPlaylist.playlist[myPlaylist.current].title + "</span><span class='song-album'>" + myPlaylist.playlist[myPlaylist.current].album + "</span></span>")
+   
+});
+
+
+
+//]]>
+
+
+</script></body>
